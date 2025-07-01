@@ -12,7 +12,7 @@ setupDateInputs(startInput, endInput);
 const button = document.querySelector('.filters button');
 const gallery = document.getElementById('gallery');
 
-// NASA API key (use 'DEMO_KEY' for testing)
+// NASA API key (used 'DEMO_KEY' for testing, changed it at the end)
 const API_KEY = 'FTdx7dskRbe8Bd5GGm5TyMs6ZWFFdraAhK9MNgmN';
 
 // Listen for button click to fetch images
