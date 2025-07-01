@@ -4,9 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NASA Space Explorer</title>
+  <!-- Google Fonts for NASA Design System: Inter, Public Sans, Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Public+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <a href="https://www.nasa.gov/" target="_blank" rel="noopener" class="nasa-corner-logo" aria-label="Learn more about NASA">
+    <img src="img/NASA-Logo-Large.jpg" alt="NASA Official Logo" />
+  </a>
   <div class="container">
     <header class="site-header">
       <img src="img/nasa-worm-logo.png" alt="NASA Logo" class="logo" />
@@ -14,15 +19,20 @@
     </header>
 
     <div class="filters">
-      <input type="date" id="startDate" />
-      <input type="date" id="endDate" />
+      <input type="date" id="startDate" aria-label="Start date" />
+      <input type="date" id="endDate" aria-label="End date" />
       <button>Get Space Images</button>
+    </div>
+
+    <div id="fun-fact" class="fun-fact-section">
+      <span class="fun-fact-label">🚀 Did You Know?</span>
+      <span class="fun-fact-text"></span>
     </div>
 
     <div id="gallery" class="gallery">
       <div class="placeholder">
         <div class="placeholder-icon">🔭</div>
-        <p>Select a date range and click "Get Space Images" to explore the cosmos!</p>
+        <p>Select a date range and click <span style="color:#fc3d21;font-weight:bold">Get Space Images</span> to explore the cosmos!</p>
       </div>
     </div>
   </div>
