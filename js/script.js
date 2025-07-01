@@ -13,7 +13,7 @@ const button = document.querySelector('.filters button');
 const gallery = document.getElementById('gallery');
 
 // NASA API key (use 'DEMO_KEY' for testing)
-const API_KEY = 'DEMO_KEY';
+const API_KEY = 'FTdx7dskRbe8Bd5GGm5TyMs6ZWFFdraAhK9MNgmN';
 
 // Listen for button click to fetch images
 button.addEventListener('click', () => {
